@@ -1,0 +1,84 @@
+body{
+    background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg);
+    background-size: cover;
+}
+.a{
+    position: absolute;
+}
+.b{
+    position: fixed;
+    top: 0;
+    background:linear-gradient(to left,purple,pink,aquamarine);
+    width: 99%;
+}
+.c{
+    display: inline-block;
+    margin-left: 200px;
+}
+.d{
+    display: inline-block;
+    margin-left: 500px;
+}
+.ee{
+    padding: 2px;
+    position: sticky;
+    top: 0;
+    box-shadow: 5px 5px 5px grey;
+    z-index: 2;
+}
+.e{
+    background:linear-gradient(to right,purple,pink,aquamarine);
+    margin-top: 100px;
+    border-radius: 5px;
+    display: block;
+    padding: 15px;
+}
+.g{
+    text-align: center;
+}
+.h{
+    text-align: end;
+}
+.m{
+    width: 95%;
+    padding: 20px;
+    display: block;
+    margin-top: 10px;
+    border: 2px solid;
+    border-radius: 3%;
+}
+.j img{
+    width: 1150px;
+    height: 200px;
+    border: 2px solid;
+    margin-top: 20px;
+    border-radius: 7px;
+    object-fit: contain;
+    
+}
+.k img{
+    width: 1150px;
+    height: 200px;
+    border: 2px solid;
+    object-fit: fill;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+.l img{
+    width:1150px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.n{
+    display: block;
+    margin-top: 10px;
+    border: 2px solid;
+    font-size: 30px;
+    font-family: sans-serif;
+    background-color: rgb(158, 210, 237);
+    padding: 20px;
+    direction: rtl;
+}
